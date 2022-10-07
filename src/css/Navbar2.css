@@ -1,0 +1,134 @@
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(0, 0, 0, 0.55);
+    --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+    --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+    --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+    --bs-navbar-toggler-border-radius: 0.375rem;
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    border-bottom: 1px groove;
+}
+
+.box-left {
+    display: inline-block;
+    flex: 1;
+    flex-direction: row;
+    width: 33%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-right: 50px;
+    
+}
+
+.box-center {
+    flex: 2;
+    width: 30%;
+    padding-left: 30px;
+    background-color: #efefef;
+    padding: 0px 16px;
+    border-radius: 7px;
+    width: 250px;
+    height: 40px;
+
+}
+
+.box-right {
+    flex: 3;
+    width: 33%;
+    padding-left: 30px;
+    
+}
+
+.downArrow {
+    position: absolute ;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    padding-left: 1px;
+    padding-top: 10px;
+    margin: 1px;
+}
+
+.button2 { 
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.inputDiv {
+    background: rgb(var(--ig-highlight-background));
+    display: flex;
+    flex-direction: row;
+    font-size: var(--system-16-font-size);
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-right: 1px;
+    width: 240px;
+    height: 36px;
+    margin: 0px;
+
+}
+
+.inputIcon {
+    flex : 1;
+    align-items: center;
+    align-content: center;
+    padding-top: 2px;
+    padding-left: 2px;
+    margin: 0px;
+}
+
+.input {
+    flex : 3;
+    background-color: #efefef;
+    width: 250px;
+    height: auto;
+    color: rgb(var(--ig-secondary-text));
+    cursor: text;
+    font-weight: var(--font-weight-system-light);
+    justify-content: center;
+    left: 0;
+    position: relative;
+    text-align: left;
+    top: 0;
+    z-index: 2;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+

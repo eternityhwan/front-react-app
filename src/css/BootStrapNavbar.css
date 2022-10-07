@@ -1,0 +1,88 @@
+.osclogo {
+    /* background-image: url(https://uploads-ssl.webflow.com/5f3b26c2b3bde9e2894607e8/5fbf6630f1947789673b791d_OSC%20Korea%20CI%20%EB%B8%94%EB%A3%A8.svg); */
+    background-image : url('../img/instagram-script.png');
+    width: 100px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+
+ .main_body {
+   display: block;
+   padding-top: 60px;
+   background-color: #FAFAFA;
+ }
+
+.input {
+    background-color: #efefef;
+    width: 250px;
+    color: rgb(var(--ig-secondary-text));
+    cursor: text;
+    font-weight: var(--font-weight-system-light);
+    justify-content: center;
+    left: 0;
+    position: relative;
+    text-align: left;
+    top: 0;
+    z-index: 2;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.searchbar {
+    min-width: 0%;
+}
+
+.navfix {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 100%;
+    font: inherit;
+    text-align: left;
+    align-items: left;
+    align-content: left;
+    position: fixed;
+    display: flex;
+    /* border: solid 2px; */
+    width: 750px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    flex-direction: row;
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-shrink: 0; */
+    /* height: var(--desktop-nav-height); */
+    /* justify-content: center; */
+    /* max-width: calc(935px + 40px); */
+    /* padding: 0 20px; */
+    /* transition: height var(--desktop-nav-anim-duration) ease-in-out; */
+    /* width: 100%; */
+    /* z-index: 10; */
+}
+
+#top-navbar-wrap {
+    position: relative;
+    justify-content: space-around;
+}
+
+.button2 { 
+    background-color: #efefef;
+    border: none;
+    color: black;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+#mother {
+  align-items: left;  
+}
